@@ -417,12 +417,12 @@ main::before {
   .name {
     font-size: 18px;
     left: 0px;
-    top: 8px;
+    top: 6px;
     width: 100%;
   }
   .profile img {
     max-width: 40%;
-    margin: 30px 30% 0;
+    margin: 40px 30% 0;
     position: relative;
   }
   .detail {
@@ -436,8 +436,8 @@ main::before {
   }
   .icon-made {
     position: absolute;
-    top: 23%;
-    left: 10px;
+    top: 20%;
+    left: 25px;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
@@ -466,6 +466,9 @@ main::before {
     width: 250px;
     font-size: 20px;
   }
+  .icon-made br {
+    display: inline;
+  }
 }
 
 /* iPhone 6/7/8 Plus  Pixel 2*/
@@ -473,18 +476,18 @@ main::before {
   .name {
     font-size: 18px;
     left: 0px;
-    top: 8px;
+    top: 6px;
     width: 100%;
   }
   .profile img {
     max-width: 40%;
-    margin: 30px 30% 0;
+    margin: 40px 30% 0;
     position: relative;
   }
   .detail {
     width: calc(100% - 30px);
     font-size: 15px;
-    top: 26%;
+    top: 32%;
     padding: 5px 0 5px 30px;
   }
   .detail p {
@@ -492,19 +495,17 @@ main::before {
   }
   .icon-made {
     position: absolute;
-    top: 23%;
-    left: 10px;
+    top: 20%;
+    left: 25px;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
   }
 
   .contents {
-    flex-direction: column;
+    flex-direction: row;
     width: calc(100% - 40px);
-    align-items: flex-end;
-    align-content: flex-end;
-    bottom: 0px;
+    bottom: 80px;
   }
   .platform {
     margin-top: 0;
@@ -515,12 +516,15 @@ main::before {
     margin-top: 10px;
   }
   .guide {
-    font-size: 18px;
+    font-size: 15px;
   }
   .btn {
     margin-left: 0;
-    width: 250px;
-    font-size: 20px;
+    width: 130px;
+    font-size: 18px;
+  }
+  .icon-made br {
+    display: inline;
   }
 
   main::before {
@@ -559,8 +563,8 @@ main::before {
   }
   .icon-made {
     position: absolute;
-    top: 23%;
-    left: 10px;
+    top: 20%;
+    left: 25px;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
@@ -588,6 +592,9 @@ main::before {
     width: 250px;
     font-size: 20px;
   }
+  .icon-made br {
+    display: inline;
+  }
 }
 
 /* iPhone 6/7/8 */
@@ -600,7 +607,7 @@ main::before {
   .detail {
     width: calc(100% - 30px);
     font-size: 13px;
-    top: 21%;
+    top: 24%;
     padding: 5px 0 5px 30px;
   }
   .detail p {
@@ -608,18 +615,16 @@ main::before {
   }
   .icon-made {
     position: absolute;
-    top: 18%;
-    left: 10px;
+    top: 15%;
+    left: 25px;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
   }
   .contents {
-    flex-direction: column;
+    flex-direction: row;
     width: calc(100% - 40px);
-    align-items: flex-end;
-    align-content: flex-end;
-    bottom: 0px;
+    bottom: 60px;
   }
   .platform {
     margin-top: 0;
@@ -633,12 +638,15 @@ main::before {
     font-size: 15px;
   }
   .h2 {
-    padding: 0;
+    padding-top: 10px;
   }
   .btn {
     margin-left: 0;
-    width: 250px;
-    font-size: 20px;
+    width: 130px;
+    font-size: 18px;
+  }
+  .icon-made br {
+    display: inline;
   }
 
   main::before {
@@ -702,7 +710,7 @@ main::before {
     height: 37px;
   }
   .h2 {
-      padding-top: 10px;
+    padding-top: 10px;
   }
   .btn {
     margin-left: 0;

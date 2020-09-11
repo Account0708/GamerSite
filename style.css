@@ -733,7 +733,7 @@ main::before {
   .detail {
     width: calc(100% - 30px);
     font-size: 12px;
-    top: 150px;
+    top: 155px;
     padding: 5px 0 5px 30px;
   }
   .detail p {
